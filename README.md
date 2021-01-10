@@ -82,14 +82,14 @@ Ergebnis:
 
 		Maximaler Wert Lkw 1: 		40663
 		Maximaler Wert Lkw 2: 		34032
-		Gesamtwert: 				74695
+		Gesamtwert: 			74695
 		Gewicht ohne Fahrer Lkw 1: 	1027,207 Kg
 		Gewicht ohne Fahrer Lkw 2: 	1018,659 Kg
 		Gewicht mit Fahrer Lkw 1: 	1099,607 Kg
 		Gewicht mit Fahrer Lkw 2: 	1099,994 Kg
-		Ausführungszeit: 			27299 Sekunden
-		Anzahl an Items: 			3292
-		Anzahl an Boxen: 			10
+		Ausführungszeit: 		27299 Sekunden
+		Anzahl an Items: 		3292
+		Anzahl an Boxen: 		10
 
 	
 	
