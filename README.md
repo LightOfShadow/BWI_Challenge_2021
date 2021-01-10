@@ -35,21 +35,27 @@ Ausführung:
 
 Algorithmus:
 
-	An sich ist das ganze ein 0/1-Knapsack Problem. 
-	Daher viel meine erste Wahl auf Dynamisches Programmieren mit einem 3D-Tensor / Würfel.
-	Das funktioniert allerdings nur mit ganzzahligen Werten, also mussten die Gewichte in Kilo auf Gramm erweitert werden.
-	Dadurch wurde diese Methode allerdings viel zu Speicherintensiv (O(N*C1*C2), N = Anzahl der Items, CX = Kapazität der LKWs in Gramm).
-	
-	Daher habe ich jetzt einen "LeastCount Branch and Bound" - Algorythmus als Vorlage genommen.
-	Dieser Algorythmus benötigt zwar nur recht wenig Speicher, hat aber im schlimmsten Fall eine exponentielle Laufzeit.
-	Durch die Struktur der Aufgabe, wie etwa, dass Items in der gleichen Kategorie die gleichen Werte haben, lässt sich die Laufzeit zwar minimal optimieren,
-	ist aber bei weitem noch nicht O(N) oder Ähnliches.
-	
-	Ich bin mir sicher, dass ich noch nicht den besten Weg gefunden habe, habe aber leider keine Zeit mehr um andere Sachen auszuprobieren.
-	Nichtsdestotrotz wollte ich gerne machen, und wie der Zufall so will läuft der Algorithmus mit der Beispieldaten erstaunlich schnell durch :P
-	
 	TL;DR:
 	Es wird eine abgewandelte Art des "LeastCount Branch and Bound" - Algorythmus verwendet.
+	
+	An sich ist das ganze ein 0/1-Knapsack Problem. 
+	Daher viel meine erste Wahl auf Dynamisches Programmieren mit einem 3D-Tensor / Würfel.
+	Das funktioniert allerdings nur mit ganzzahligen Werten, also mussten die Gewichte in Kilo 
+	auf Gramm erweitert werden.
+	Dadurch wurde diese Methode allerdings viel zu Speicherintensiv:
+	(O(N*C1*C2), N = Anzahl der Items, CX = Kapazität der LKWs in Gramm)
+	
+	Daher habe ich jetzt einen "LeastCount Branch and Bound" - Algorythmus als Vorlage genommen.
+	Dieser Algorythmus benötigt zwar nur recht wenig Speicher, hat aber im 
+	schlimmsten Fall eine exponentielle Laufzeit.
+	Durch die Struktur der Aufgabe, wie etwa, dass Items in der gleichen Kategorie die gleichen Werte haben, 
+	lässt sich die Laufzeit zwar minimal optimieren,
+	ist aber bei weitem noch nicht O(N) oder Ähnliches.
+	
+	Ich bin mir sicher, dass ich noch nicht den besten Weg gefunden habe, habe aber leider keine Zeit mehr
+	um andere Sachen auszuprobieren.
+	Nichtsdestotrotz wollte ich gerne mit machen :)
+	
 	
 
 Ergebnis:
